@@ -6,7 +6,7 @@ export default class Navbar extends Component {
       <header class="mb-8 flex items-center justify-between py-4 md:mb-12 md:py-8 xl:mb-16">
         <a
           href="/"
-          class="inline-flex items-center gap-2.5 text-2xl font-bold text-gray-50 md:text-3xl"
+          class="inline-flex items-center gap-2.5 text-xl font-medium text-gray-500 md:text-3xl"
           aria-label="logo"
         >
           <svg
@@ -22,25 +22,25 @@ export default class Navbar extends Component {
         <nav class="hidden gap-12 lg:flex">
           <a
             href="#"
-            class="text-lg font-semibold text-gray-50 transition duration-100 hover:text-indigo-500 active:text-indigo-700"
+            class="text-base font-medium text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-700"
           >
             Home
           </a>
           <a
             href="#"
-            class="text-lg font-semibold text-gray-50 transition duration-100 hover:text-indigo-500 active:text-indigo-700"
+            class="text-base font-medium text-gray-500  transition duration-100 hover:text-indigo-500 active:text-indigo-700"
           >
             Features
           </a>
           <a
             href="#"
-            class="text-lg font-semibold text-gray-50 transition duration-100 hover:text-indigo-500 active:text-indigo-700"
+            class="text-base font-medium text-gray-500  transition duration-100 hover:text-indigo-500 active:text-indigo-700"
           >
             Contact
           </a>
           <a
             href="#"
-            class="text-lg font-semibold text-gray-50 transition duration-100 hover:text-indigo-500 active:text-indigo-700"
+            class="text-base font-medium text-gray-500  transition duration-100 hover:text-indigo-500 active:text-indigo-700"
           >
             About
           </a>

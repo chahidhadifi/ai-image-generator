@@ -3,14 +3,14 @@ import React, { Component } from "react";
 export default class Navbar extends Component {
   render() {
     return (
-      <header class="mb-8 flex items-center justify-between py-4 md:mb-12 md:py-8 xl:mb-16">
+      <header className="mb-8 flex items-center justify-between py-4 md:mb-12 md:py-8 xl:mb-16">
         <a
           href="/"
-          class="inline-flex items-center gap-2.5 text-xl font-medium text-gray-500 md:text-3xl"
+          className="inline-flex items-center gap-2.5 text-xl font-medium text-gray-500 md:text-3xl transition duration-100 hover:text-indigo-500"
           aria-label="logo"
         >
           <svg
-            class="h-auto w-8 text-indigo-500"
+            className="h-auto w-8 text-indigo-500"
             viewBox="0 0 32 32"
             fill="currentColor"
             xmlns="http://www.w3.org/2000/svg"
@@ -19,28 +19,22 @@ export default class Navbar extends Component {
           </svg>
           Creation
         </a>
-        <nav class="hidden gap-12 lg:flex">
+        <nav className="hidden gap-12 lg:flex">
           <a
             href="#"
-            class="text-base font-medium text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-700"
+            className="text-base font-medium text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-700"
           >
             Home
           </a>
           <a
             href="#"
-            class="text-base font-medium text-gray-500  transition duration-100 hover:text-indigo-500 active:text-indigo-700"
-          >
-            Features
-          </a>
-          <a
-            href="#"
-            class="text-base font-medium text-gray-500  transition duration-100 hover:text-indigo-500 active:text-indigo-700"
+            className="text-base font-medium text-gray-500  transition duration-100 hover:text-indigo-500 active:text-indigo-700"
           >
             Contact
           </a>
           <a
             href="#"
-            class="text-base font-medium text-gray-500  transition duration-100 hover:text-indigo-500 active:text-indigo-700"
+            className="text-base font-medium text-gray-500  transition duration-100 hover:text-indigo-500 active:text-indigo-700"
           >
             About
           </a>
@@ -48,18 +42,18 @@ export default class Navbar extends Component {
 
         <button
           type="button"
-          class="inline-flex items-center gap-2 rounded-lg bg-gray-200 px-2.5 py-2 text-sm font-semibold text-gray-500 ring-indigo-300 hover:bg-gray-300 focus-visible:ring active:text-gray-700 md:text-base lg:hidden"
+          className="inline-flex items-center gap-2 rounded-lg bg-gray-200 px-2.5 py-2 text-sm font-semibold text-gray-500 ring-indigo-300 hover:bg-gray-300 focus-visible:ring active:text-gray-700 md:text-base lg:hidden"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            class="h-6 w-6"
+            className="h-6 w-6"
             viewBox="0 0 20 20"
             fill="currentColor"
           >
             <path
-              fill-rule="evenodd"
+              fillRule="evenodd"
               d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h6a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
-              clip-rule="evenodd"
+              clipRule="evenodd"
             />
           </svg>
           Menu

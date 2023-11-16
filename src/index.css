@@ -7,8 +7,11 @@
 }
 
 .container {
-  position: relative;
-  height: 100vh;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: 800px auto;
 }
 
 .container::before {
@@ -16,6 +19,8 @@
   position: absolute;
   top: 0;
   left: 0;
+  right: 0;
+  bottom: 0;
   height: 100%;
   width: 100%;
   background-image: url(./assets/abstract-lines.svg);
@@ -23,4 +28,21 @@
   background-repeat: no-repeat;
   opacity: 0.12;
   z-index: -1;
+}
+
+.logo {
+  /* animation-name: ; */
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  border-radius: 50%;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(-360deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }

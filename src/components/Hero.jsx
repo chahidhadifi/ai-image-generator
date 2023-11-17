@@ -60,7 +60,7 @@ export default class Hero extends Component {
             <p className="title font-black pb-3 text-transparent text-6xl bg-clip-text bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-zinc-200 via-indigo-500 to-purple-100">
               Text to image with AI art generator
             </p>
-            <p className="mt-5 font-semibold text-gray-600 text-sm ">
+            <p className="mt-4 font-semibold text-gray-600 text-sm w-3/4">
               Create awe-inspiring masterpieces effortlessly and explore the
               endless possibilities of AI generated art.
             </p>

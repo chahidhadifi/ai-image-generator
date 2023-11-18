@@ -54,7 +54,7 @@ export default class Hero extends Component {
   }
   render() {
     return (
-      <div className="flex flex-col sm:flex-row items-center justify-center">
+      <div className="flex flex-col sm:flex-row items-center justify-center mt-20">
         <div className="sm:flex-shrink-0 sm:w-4/6">
           <div className="flex flex-col items-start text-left justify-start cursor-default pt-10">
             <p className="title font-black pb-3 text-transparent text-6xl bg-clip-text bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-zinc-200 via-indigo-500 to-purple-100">
@@ -67,7 +67,7 @@ export default class Hero extends Component {
           </div>
           <div className=" flex flex-col lg:flex-row items-start justify-start text-center">
             <div className="w-5/6">
-              <div className="p-2 mt-8 transition duration-500 ease-in-out transform border2 bg-gray-50 rounded-xl sm:flex">
+              <div className="p-2 mt-8 transition duration-500 ease-in-out transform border2 bg-gray-100 rounded-xl sm:flex">
                 <div className="flex-1 revue-form-group">
                   <input
                     id="inputuser"

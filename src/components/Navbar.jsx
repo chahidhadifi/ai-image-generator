@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 export default class Navbar extends Component {
   render() {
     return (
-      <header className="mb-8 flex items-center justify-between py-4 md:mb-12 md:py-8 xl:mb-16">
+      <header className="mb-8 flex items-center justify-between py-4 md:mb-6 md:py-8">
         <Link
           to="/"
           className="inline-flex items-center gap-2.5 text-xl font-medium text-gray-500 md:text-3xl transition duration-100 hover:text-indigo-500"
@@ -27,12 +27,12 @@ export default class Navbar extends Component {
           >
             Home
           </Link>
-          <a
-            href="#"
+          <Link
+            to="/contact"
             className="text-base font-medium text-gray-500  transition duration-100 hover:text-indigo-500 active:text-indigo-700"
           >
             Contact
-          </a>
+          </Link>
           <Link
             to="/about"
             className="text-base font-medium text-gray-500  transition duration-100 hover:text-indigo-500 active:text-indigo-700"

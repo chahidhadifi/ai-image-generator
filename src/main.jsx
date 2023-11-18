@@ -11,10 +11,16 @@ import {
   Link,
 } from "react-router-dom";
 
+import About from "./pages/About.jsx";
+
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
+  },
+  {
+    path: "/about",
+    element: <About />,
   },
 ]);
 

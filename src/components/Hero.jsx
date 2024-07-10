@@ -3,8 +3,7 @@ import axios from "axios";
 
 export default class Hero extends Component {
   componentDidMount() {
-    // API Key from EdenAI
-    const API_KEY = "";
+    const API_KEY = import.meta.env.VITE_API_KEY;
     const submitbtn = document.querySelector("#submitbtn");
     const inputuser = document.querySelector("#inputuser");
     const logo = document.querySelector(".logo");
